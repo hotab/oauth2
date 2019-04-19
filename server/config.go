@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"gopkg.in/oauth2.v3"
+	"github.com/hotab/oauth2"
 )
 
 // Config configuration parameters

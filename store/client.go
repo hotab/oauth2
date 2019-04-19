@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"gopkg.in/oauth2.v3"
+	"github.com/hotab/oauth2"
 )
 
 // NewClientStore create client store

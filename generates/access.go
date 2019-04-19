@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/utils/uuid"
+	"github.com/hotab/oauth2"
+	"github.com/hotab/oauth2/utils/uuid"
 )
 
 // NewAccessGenerate create to generate the access token instance

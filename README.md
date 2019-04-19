@@ -31,7 +31,7 @@
 ### Download and install
 
 ``` bash
-go get -u -v gopkg.in/oauth2.v3/...
+go get -u -v github.com/hotab/oauth2/...
 ```
 
 ### Create file `server.go`
@@ -43,11 +43,11 @@ import (
 	"log"
 	"net/http"
 
-	"gopkg.in/oauth2.v3/errors"
-	"gopkg.in/oauth2.v3/manage"
-	"gopkg.in/oauth2.v3/models"
-	"gopkg.in/oauth2.v3/server"
-	"gopkg.in/oauth2.v3/store"
+	"github.com/hotab/oauth2/errors"
+	"github.com/hotab/oauth2/manage"
+	"github.com/hotab/oauth2/models"
+	"github.com/hotab/oauth2/server"
+	"github.com/hotab/oauth2/store"
 )
 
 func main() {
@@ -135,7 +135,7 @@ Simulation examples of authorization code model, please check [example](/example
 ```go
 
 import (
-	"gopkg.in/oauth2.v3/generates"
+	"github.com/hotab/oauth2/generates"
 	"github.com/dgrijalva/jwt-go"
 )
 
@@ -178,9 +178,9 @@ if !ok || !token.Valid {
 [Build-Status-Image]: https://travis-ci.org/go-oauth2/oauth2.svg?branch=master
 [codecov-url]: https://codecov.io/gh/go-oauth2/oauth2
 [codecov-image]: https://codecov.io/gh/go-oauth2/oauth2/branch/master/graph/badge.svg
-[reportcard-url]: https://goreportcard.com/report/gopkg.in/oauth2.v3
-[reportcard-image]: https://goreportcard.com/badge/gopkg.in/oauth2.v3
-[godoc-url]: https://godoc.org/gopkg.in/oauth2.v3
-[godoc-image]: https://godoc.org/gopkg.in/oauth2.v3?status.svg
+[reportcard-url]: https://goreportcard.com/report/github.com/hotab/oauth2
+[reportcard-image]: https://goreportcard.com/badge/github.com/hotab/oauth2
+[godoc-url]: https://godoc.org/github.com/hotab/oauth2
+[godoc-image]: https://godoc.org/github.com/hotab/oauth2?status.svg
 [license-url]: http://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/express.svg

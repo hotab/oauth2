@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/hotab/oauth2"
+	"github.com/hotab/oauth2/models"
+	"github.com/hotab/oauth2/utils/uuid"
 	"github.com/tidwall/buntdb"
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/models"
-	"gopkg.in/oauth2.v3/utils/uuid"
 )
 
 // NewMemoryTokenStore create a token store instance based on memory
